@@ -34,6 +34,6 @@ Installing and running LostJK:
 
 ## Maintainers
 
-* [lost](https://github.com/lostjk/)
-* [eternal](https://github.com/eternalcodes)
+* [lostjk](https://github.com/lostjk/)
+* [eternaljk](https://github.com/eternalcodes)
 * [openjk](https://github.com/JACoders)
