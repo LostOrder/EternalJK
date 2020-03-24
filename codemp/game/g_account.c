@@ -12,7 +12,7 @@
 #include "curl/easy.h"
 #endif
 
-#define LOCAL_DB_PATH LOSTJKGAME "/accounts.db"
+#define LOCAL_DB_PATH LOSTJKGAME "/data.db"
 //#define GLOBAL_DB_PATH sv_globalDBPath.string
 //#define MAX_TMP_RACELOG_SIZE 80 * 1024
 
