@@ -7,7 +7,7 @@ This fork focuses in two main efforts:
 If you have any suggestions or would like to submit a bug report, please post them in [issues](https://github.com/lostjk/LostJK/issues).
 
 [![Website](https://img.shields.io/badge/website-lostjk-brightgreen.svg)](https://lostjk.github.io)
-[![Fork](https://img.shields.io/badge/repository-eternaljk-blue.svg)](https://github.com/eternalcodes/EternalJK)
+[![Fork](https://img.shields.io/badge/repository-eternaljk-green.svg)](https://github.com/eternalcodes/EternalJK)
 [![Fork](https://img.shields.io/badge/repository-japro-blue.svg)](https://github.com/videoP/jaPRO)
 [![Fork](https://img.shields.io/badge/repository-openjk-blue.svg)](https://github.com/JACoders/OpenJK) 
 
