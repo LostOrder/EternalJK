@@ -1,37 +1,39 @@
-# EternalJK
+# LostJK
 
-This fork focuses on the jaPRO integration and Client Engine modifications.
+This fork focuses in two main efforts:
+ - Polishing JK2 elements featured in EternalJK.
+ - Feature light RPG elements with world persistence and character progression.
 
-If you have any suggestions or would like to submit a bug report, please post them in [issues](https://github.com/eternalcodes/EternalJK/issues).
+If you have any suggestions or would like to submit a bug report, please post them in [issues](https://github.com/lostjk/LostJK/issues).
 
-[![Website](https://img.shields.io/badge/website-japro-brightgreen.svg)](http://playja.pro) [![Fork](https://img.shields.io/badge/repository-japro%20game%20library-blue.svg)](https://github.com/videoP/jaPRO)
+[![Website](https://img.shields.io/badge/website-lostjk-brightgreen.svg)](lostjk.github.io)
+[![Fork](https://img.shields.io/badge/repository-eternaljk-green.svg)](https://github.com/eternalcodes/EternalJK)
+[![Fork](https://img.shields.io/badge/repository-japro-blue.svg)](https://github.com/videoP/jaPRO)
+[![Fork](https://img.shields.io/badge/repository-openjk-blue.svg)](https://github.com/JACoders/OpenJK) 
 
 ## License
 
-[![License](https://img.shields.io/github/license/eternalcodes/EternalJK.svg)](https://github.com/eternalcodes/EternalJK/blob/master/LICENSE.txt)
+[![License](https://img.shields.io/github/license/lostjk/LostJK.svg)](https://github.com/lostjk/LostJK/blob/lost/LICENSE.txt)
 
-OpenJK is licensed under GPLv2 as free software. You are free to use, modify and redistribute OpenJK following the terms in LICENSE.txt.
-
+LostJK licensed under GPLv2 as free software. You are free to use, modify and redistribute LostJK following the terms in LICENSE.txt.
 
 ## For players
 
-Installing and running EternalJK:
+Installing and running LostJK:
 
-1. [Download the latest release](https://github.com/eternalcodes/EternalJK/releases).
+1. [Download the latest release](https://lostjk.github.io).
 2. Extract the file into the Jedi Academy `GameData` folder. For Steam users, this will be in `<Steam Folder>/steamapps/common/Jedi Academy/GameData/`.
-3. Run eternaljk.x86.exe (Rename to jamp.exe for better steam support)
+3. Run `lostjk.x86.exe` (For better steam support, rename `lostjk.x86.exe` to `jamp.exe`)
 
 ## For Developers
 
-### Contributing to EternalJK
-* [Fork](https://github.com/eternalcodes/EternalJK/fork) the EternalJK project on GitHub
+### Contributing to LostJK
+* [Fork](https://github.com/lostjk/LostJK) the LostJK project on GitHub
 * Create a new branch on your fork and make your changes
-* Send a [pull request](https://help.github.com/articles/creating-a-pull-request) to upstream (eternaljk/master)
+* Send a [pull request](https://help.github.com/articles/creating-a-pull-request) to upstream (lostjk/lost)
 
 ## Maintainers
 
+* [lost](https://github.com/lostjk/)
 * [eternal](https://github.com/eternalcodes)
-
-## Contributors 
-* [bucky](https://github.com/Bucky21659)
-* [loda](https://github.com/videoP)
+* [openjk](https://github.com/JACoders)
