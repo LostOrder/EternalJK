@@ -3607,7 +3607,7 @@ void FS_Startup( const char *gameName ) {
 	fs_copyfiles = Cvar_Get( "fs_copyfiles", "0", CVAR_INIT );
 	fs_cdpath = Cvar_Get ("fs_cdpath", "", CVAR_INIT|CVAR_PROTECTED, "(Read Only) Location for development files" );
 	fs_basepath = Cvar_Get ("fs_basepath", Sys_DefaultInstallPath(), CVAR_INIT|CVAR_PROTECTED, "(Read Only) Location for game files" );
-	fs_basegame = Cvar_Get ("fs_basegame", ETERNALJKGAME, CVAR_INIT );
+	fs_basegame = Cvar_Get ("fs_basegame", LOSTJKGAME, CVAR_INIT );
 	fs_portable = Cvar_Get ("fs_portable", "1", CVAR_INIT|CVAR_PROTECTED, "Disable fs_homepath and use only one folder for all game files" );
 	homePath = Sys_DefaultHomePath();
 	if (!homePath || !homePath[0]) {
@@ -3617,7 +3617,7 @@ void FS_Startup( const char *gameName ) {
 
 #ifndef DEDICATED
 	//cancer?
-	fs_globalcfg = Cvar_Get("fs_globalcfg", "1", CVAR_ARCHIVE/* | CVAR_LATCH*/ | CVAR_NORESTART | CVAR_PROTECTED, "Only read/write files from base and EternalJK folders (requires filesystem restart)");
+	fs_globalcfg = Cvar_Get("fs_globalcfg", "1", CVAR_ARCHIVE/* | CVAR_LATCH*/ | CVAR_NORESTART | CVAR_PROTECTED, "Only read/write files from base and LostJK folders (requires filesystem restart)");
 
 	if (fs_globalcfg->integer)
 		fs_gamedirvar = fs_basegame;

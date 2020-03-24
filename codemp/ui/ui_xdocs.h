@@ -33,7 +33,7 @@
 /* --------------------------------------------------- */
 /* CVARS */
 
-// EternalJK HUD cvars:
+// LostJK HUD cvars:
 
 XDOCS_CVAR_DEF("cg_movementKeys", "Show the movement keys onscreen",
 	SETTING("0", "Movement keys are hidden") NL
@@ -312,7 +312,7 @@ XDOCS_CVAR_DEF("g_gametype", "Gametype that the server is currently on",
 /* --------------------------------------------------- */
 /* COMMANDS */
 
-// EternalJK console commands:
+// LostJK console commands:
 
 XDOCS_CMD_DEF("clientlist", "Displays a list of all connected clients and their real client numbers")
 

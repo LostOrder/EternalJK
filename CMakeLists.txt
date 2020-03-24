@@ -35,9 +35,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR})
 # Customizable options
 option(BuildPortableVersion "Build portable version (does not read or write files from your user/home directory" ON)
 
-option(BuildMPEngine "Whether to create projects for the MP client (eternaljk.x86.exe)" ON)
-option(BuildMPRdVanilla "Whether to create projects for the MP default renderer (rd-eternaljk_x86.dll)" ON)
-option(BuildMPDed "Whether to create projects for the MP dedicated server (eternaljkded.exe)" ON)
+option(BuildMPEngine "Whether to create projects for the MP client (lostjk.x86.exe)" ON)
+option(BuildMPRdVanilla "Whether to create projects for the MP default renderer (rd-lostjk_x86.dll)" ON)
+option(BuildMPDed "Whether to create projects for the MP dedicated server (lostjkded.x86.exe)" ON)
 option(BuildMPGame "Whether to create projects for the MP server-side gamecode (jampgamex86.dll)" ON)
 option(BuildMPCGame "Whether to create projects for the MP clientside gamecode (cgamex86.dll)" ON)
 option(BuildMPUI "Whether to create projects for the MP UI code (uix86.dll)" ON)
@@ -147,9 +147,9 @@ message(STATUS "Git revision is ${GIT_SHA1}")
 
 
 # Binary names
-set(MPEngine "eternaljk.${Architecture}")
-set(MPVanillaRenderer "rd-eternaljk_${Architecture}")
-set(MPDed "eternaljkded.${Architecture}")
+set(MPEngine "lostjk.${Architecture}")
+set(MPVanillaRenderer "rd-lostjk_${Architecture}")
+set(MPDed "lostjkded.${Architecture}")
 set(MPGame "jampgame${Architecture}")
 set(MPCGame "cgame${Architecture}")
 set(MPUI "ui${Architecture}")

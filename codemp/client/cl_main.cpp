@@ -111,7 +111,7 @@ cvar_t  *cl_lanForcePackets;
 
 cvar_t	*cl_drawRecording;
 
-//EternalJK
+//LostJK
 cvar_t	*cl_ratioFix;
 
 cvar_t	*cl_colorString;
@@ -2648,7 +2648,7 @@ static IHeapAllocator *GetG2VertSpaceServer( void ) {
 	return G2VertSpaceServer;
 }
 
-#define DEFAULT_RENDER_LIBRARY "rd-eternaljk"
+#define DEFAULT_RENDER_LIBRARY "rd-lostjk"
 
 void CL_InitRef( void ) {
 	static refimport_t ri;

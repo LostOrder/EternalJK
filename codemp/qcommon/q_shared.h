@@ -27,16 +27,16 @@ along with this program; if not, see <http://www.gnu.org/licenses/>.
 // q_shared.h -- included first by ALL program modules.
 // A user mod should never modify this file
 
-#define PRODUCT_NAME			"eternaljk"
+#define PRODUCT_NAME			"lostjk"
 
-#define CLIENT_WINDOW_TITLE "EternalJK"
-#define CLIENT_CONSOLE_TITLE "EternalJK Console"
-#define HOMEPATH_NAME_UNIX "EternalJK"
-#define HOMEPATH_NAME_WIN "EternalJK"
+#define CLIENT_WINDOW_TITLE "LostJK"
+#define CLIENT_CONSOLE_TITLE "LostJK Console"
+#define HOMEPATH_NAME_UNIX "LostJK"
+#define HOMEPATH_NAME_WIN "LostJK"
 #define HOMEPATH_NAME_MACOSX HOMEPATH_NAME_WIN
 
 #define	BASEGAME "base"
-#define ETERNALJKGAME "EternalJK"
+#define LOSTJKGAME "LostJK"
 
 //NOTENOTE: Only change this to re-point ICARUS to a new script directory
 #define Q3_SCRIPT_DIR	"scripts"
