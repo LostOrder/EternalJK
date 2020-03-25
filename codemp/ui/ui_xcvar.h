@@ -161,7 +161,7 @@ XCVAR_DEF( cg_strafeHelper,					"3008",					NULL,				CVAR_ARCHIVE_ND )
 XCVAR_DEF( cg_stylePlayer,					"0",					NULL,				CVAR_ARCHIVE )
 XCVAR_DEF( cg_speedometer,					"0",					NULL,				CVAR_ARCHIVE )
 XCVAR_DEF( ui_headCount,					"-1",					NULL,				CVAR_ARCHIVE|CVAR_INTERNAL|CVAR_ROM )
-XCVAR_DEF( ui_showAllSkins,					"0",				CVU_UpdateModelList,	CVAR_ARCHIVE_ND )
+XCVAR_DEF( ui_showAllSkins,					"1",				CVU_UpdateModelList,	CVAR_ARCHIVE_ND )
 XCVAR_DEF( ui_sv_pure,						"0",				CVU_UpdateModelList,	CVAR_INTERNAL|CVAR_ROM|CVAR_NORESTART )
 
 #undef XCVAR_DEF
