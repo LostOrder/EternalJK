@@ -11043,8 +11043,6 @@ static qboolean bIsSkinFile(const char* dirptr, const char* skinname)
 		return qfalse;
 
 	//don't list non-humanoid skins... - these aren't caught by the other checks below
-	if (!Q_stricmpn(dirptr, "default", 7))
-		return qfalse;
 	if (!Q_stricmpn(dirptr, "mutant_rancor", 13))
 		return qfalse;
 	if (!Q_stricmpn(dirptr, "r5d2", 4))
