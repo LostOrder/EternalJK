@@ -2683,7 +2683,7 @@ saberMoveName_t PM_SaberAttackForMovement(saberMoveName_t curmove)
 					&& newmove != LS_NONE )
 				{
 #ifdef _GAME
-					if (!(g_tweakForce.integer & FT_NO_CROUCHATTACK_FP))
+					if (!(g_tweakSaber.integer & ST_JK2LUNGE) && !(g_tweakForce.integer & FT_NO_CROUCHATTACK_FP))
 #endif
 						BG_ForcePowerDrain(pm->ps, FP_GRIP, SABER_ALT_ATTACK_POWER_FB);
 				}
@@ -2696,18 +2696,9 @@ saberMoveName_t PM_SaberAttackForMovement(saberMoveName_t curmove)
 #endif
 				(pm->ps->pm_flags & PMF_DUCKED) &&
 				pm->ps->weaponTime <= 0 &&
-				!BG_SaberInSpecialAttack(pm->ps->torsoAnim)&&
-				BG_EnoughForcePowerForMove(SABER_ALT_ATTACK_POWER_FB))
+				!BG_SaberInSpecialAttack(pm->ps->torsoAnim))
 			{ //LUNGE (weak)
 				newmove = PM_SaberAirLungeAttackMove();
-				if ( newmove != LS_A_T2B
-					&& newmove != LS_NONE )
-				{
-#ifdef _GAME
-					if (!(g_tweakForce.integer & FT_NO_CROUCHATTACK_FP))
-#endif
-						BG_ForcePowerDrain(pm->ps, FP_GRIP, SABER_ALT_ATTACK_POWER_FB);
-				}
 			}
 			else if ( !noSpecials )
 			{
